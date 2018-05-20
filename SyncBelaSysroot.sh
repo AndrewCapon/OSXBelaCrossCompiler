@@ -1,4 +1,4 @@
-mkdir -p/ usr/local/linaro/BelaSysroot/usr/xenomai/include
+mkdir -p /usr/local/linaro/BelaSysroot/usr/xenomai/include
 mkdir -p /usr/local/linaro/BelaSysroot/root/Bela/include
 mkdir -p /usr/local/linaro/BelaSysroot/usr/include/alsa
 mkdir -p /usr/local/linaro/BelaSysroot/usr/local/include
@@ -20,7 +20,7 @@ rsync -avz root@192.168.7.2:/usr/local/include/seasocks /usr/local/linaro/BelaSy
 rsync -avz root@192.168.7.2:/root/Bela/lib /usr/local/linaro/BelaSysroot/root/Bela
 rsync -avz root@192.168.7.2:/usr/xenomai/lib /usr/local/linaro/BelaSysroot/usr/xenomai
 
-rsync -avz root@192.168.7.2:/usr/local/lib/libpd.* u/sr/local/linaro/BelaSysroot/usr/local/lib
+rsync -avz root@192.168.7.2:/usr/local/lib/libpd.* /usr/local/linaro/BelaSysroot/usr/local/lib
 rsync -avz root@192.168.7.2:/usr/local/lib/libseasocks.* /usr/local/linaro/BelaSysroot/usr/local/lib
 rsync -avz root@192.168.7.2:/usr/local/lib/libprussdrv.* /usr/local/linaro/BelaSysroot/usr/local/lib
 
