@@ -34,3 +34,7 @@ rsync -avz root@$BELA_IP:/usr/include/math_neon.h /usr/local/linaro/BelaSysroot/
 
 rsync -avz root@$BELA_IP:/usr/lib/libNE10.* /usr/local/linaro/BelaSysroot/usr/lib
 rsync -avz root@$BELA_IP:/usr/lib/libmathneon.* /usr/local/linaro/BelaSysroot/usr/lib
+
+rsync -avz root@$BELA_IP:/usr/local/include/libpd /usr/local/linaro/BelaSysroot/usr/local/include
+rsync -avz root@$BELA_IP:/usr/local/lib/libpd.so* /usr/local/linaro/BelaSysroot/usr/local/lib
+
